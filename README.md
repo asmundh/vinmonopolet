@@ -1,5 +1,26 @@
-# Dokumentasjon
-#### Magnus Schjølberg, Åsmund Haugse, Viktor Solberg
+# Visualisation of over 18,000 products from Vinmonopolet
+## Installing and running locally
+You will need to set up a MongoDB with the supplied Vinmonopolet.json. For this I recommend using MongoCompass for easy importing of the database.
+
+Clone repository:
+```bash
+$ git clone https://github.com/asmundh/vinmonopolet.git
+```
+Install all dependencies
+```bash
+$ cd client && npm install
+$ cd ..
+$ cd server && npm install
+```
+In one terminal, start the server from outer folder.
+```bash
+$ npm run server
+```
+In another, start the client from the outer folder.
+```bash
+$ npm start
+```
+#
 
 ## Overordnet beskrivelse av prosjektet
 Informasjon om Vinmonopolets produkter ligger fritt tilgjengelig for bruk i egne tjenester.
