@@ -1,0 +1,43 @@
+{
+  "homepage": "http://it2810-46.idi.ntnu.no/prosjekt4/",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server som kobler til databasen og tar i mot API-kall ved hjelp av Express.",
+  "main": "src/index.js",
+  "author": "Åsmund",
+  "license": "ISC",
+  "scripts": {
+    "webserver": "NODE_ENV=mongodb://it2810-46.idi.ntnu.no:27017/prosjekt4 nodemon --exec babel-node src",
+    "test": "NODE_ENV=mongodb://it2810-46.idi.ntnu.no:27017/test nyc mocha --exit --compilers js:@babel/register --timeout 10000 ",
+    "start": "node src",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.stud.idi.ntnu.no:it2810-h18/prosjekt3/gruppe46.git"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9",
+    "mongoose-paginate": "^5.0.3",
+    "nodemon": "^1.18.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "nyc": "^13.1.0"
+  }
+}

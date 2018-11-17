@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly: lager 1`] = `
+<tr
+  className="db-item"
+  style={
+    Object {
+      "cursor": "pointer",
+    }
+  }
+>
+  <td
+    className="center aligned db-item-field-image"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Icon"
+        className="item-icon"
+        src={require("../public/resources/beericon.png")}
+      />
+    </div>
+  </td>
+  <td
+    className="db-item-field-name"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-type"
+    onClick={[Function]}
+  >
+    lager
+  </td>
+  <td
+    className="db-item-field-alcohol"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-volume"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-price"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-country"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-apk"
+    onClick={[Function]}
+  >
+    <b
+      style={
+        Object {
+          "color": "rgba(89, 204, 22, NaN)",
+        }
+      }
+    >
+      NaN
+    </b>
+  </td>
+  <td
+    className="center aligned db-item-field-rating"
+  >
+    <div
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <i
+        aria-hidden="true"
+        className="thumbs down outline icon"
+        onClick={[Function]}
+      />
+      <b
+        style={
+          Object {
+            "color": "#59cc16",
+          }
+        }
+      >
+        NaN
+      </b>
+      <i
+        aria-hidden="true"
+        className="thumbs up outline icon"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "5px",
+          }
+        }
+      />
+    </div>
+  </td>
+</tr>
+`;
+
+exports[`renders correctly: øl 1`] = `
+<tr
+  className="db-item"
+  style={
+    Object {
+      "cursor": "pointer",
+    }
+  }
+>
+  <td
+    className="center aligned db-item-field-image"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Icon"
+        className="item-icon"
+        src={require("../public/resources/beericon.png")}
+      />
+    </div>
+  </td>
+  <td
+    className="db-item-field-name"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-type"
+    onClick={[Function]}
+  >
+    øl
+  </td>
+  <td
+    className="db-item-field-alcohol"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-volume"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-price"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-country"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-apk"
+    onClick={[Function]}
+  >
+    <b
+      style={
+        Object {
+          "color": "rgba(89, 204, 22, NaN)",
+        }
+      }
+    >
+      NaN
+    </b>
+  </td>
+  <td
+    className="center aligned db-item-field-rating"
+  >
+    <div
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <i
+        aria-hidden="true"
+        className="thumbs down outline icon"
+        onClick={[Function]}
+      />
+      <b
+        style={
+          Object {
+            "color": "#59cc16",
+          }
+        }
+      >
+        NaN
+      </b>
+      <i
+        aria-hidden="true"
+        className="thumbs up outline icon"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "5px",
+          }
+        }
+      />
+    </div>
+  </td>
+</tr>
+`;
+
+exports[`snapshot-test: vin 1`] = `
+<tr
+  className="db-item"
+  style={
+    Object {
+      "cursor": "pointer",
+    }
+  }
+>
+  <td
+    className="center aligned db-item-field-image"
+    onClick={[Function]}
+  >
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Icon"
+        className="item-icon"
+        src={require("../public/resources/wineicon.png")}
+      />
+    </div>
+  </td>
+  <td
+    className="db-item-field-name"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-type"
+    onClick={[Function]}
+  >
+    vin
+  </td>
+  <td
+    className="db-item-field-alcohol"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-volume"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-price"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-country"
+    onClick={[Function]}
+  />
+  <td
+    className="db-item-field-apk"
+    onClick={[Function]}
+  >
+    <b
+      style={
+        Object {
+          "color": "rgba(89, 204, 22, NaN)",
+        }
+      }
+    >
+      NaN
+    </b>
+  </td>
+  <td
+    className="center aligned db-item-field-rating"
+  >
+    <div
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <i
+        aria-hidden="true"
+        className="thumbs down outline icon"
+        onClick={[Function]}
+      />
+      <b
+        style={
+          Object {
+            "color": "#59cc16",
+          }
+        }
+      >
+        NaN
+      </b>
+      <i
+        aria-hidden="true"
+        className="thumbs up outline icon"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "5px",
+          }
+        }
+      />
+    </div>
+  </td>
+</tr>
+`;

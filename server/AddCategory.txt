@@ -1,0 +1,72 @@
+db.inventory.find({'Varetype': 'India pale ale'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Lys ale'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Brown ale'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Akevitt'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Alkoholfri leskedrikk'}).forEach( function(x) {x.Kategori = 'Alkoholfritt';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Alkoholfri most'}).forEach( function(x) {x.Kategori = 'Alkoholfritt';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Alkoholfri vin'}).forEach( function(x) {x.Kategori = 'Alkoholfritt';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Alkoholfri øl'}).forEach( function(x) {x.Kategori = 'Alkoholfritt';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Alkoholfri musserende drikk'}).forEach( function(x) {x.Kategori = 'Alkoholfritt';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Alkoholfritt øl'}).forEach( function(x) {x.Kategori = 'Alkoholfritt';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Aromatisert vin'}).forEach( function(x) {x.Kategori = 'Sterkvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Barley wine'}).forEach( function(x) {x.Kategori = 'Øll';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Bitter'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Brennevin. annet'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Brennevin. nøytralt < 37.5 %'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Druebrennevin'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Fruktbrennevin'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Fruktvin'}).forEach( function(x) {x.Kategori = 'Fruktvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Genever'}).forEach( function(x) {x.Kategori = 'Genever';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Gin'}).forEach( function(x) {x.Kategori = 'Genever';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Hveteøl'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Hvitvin'}).forEach( function(x) {x.Kategori = 'Vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Klosterstil'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Likør'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Lys lager'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Lys lager'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Madeira'}).forEach( function(x) {x.Kategori = 'Sterkvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Mjød'}).forEach( function(x) {x.Kategori = 'Fruktvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Musserende vin'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Musserende vin. rosé'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Øl'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Perlende vin. hvit'}).forEach( function(x) {x.Kategori = 'Vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Perlende vin. rød'}).forEach( function(x) {x.Kategori = 'Vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Perlende vin. rosé'}).forEach( function(x) {x.Kategori = 'Vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Porter & stout'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Portvin'}).forEach( function(x) {x.Kategori = 'Sterkvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Red/amber'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Rom'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Rosévin'}).forEach( function(x) {x.Kategori = 'Vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Rødvin'}).forEach( function(x) {x.Kategori = 'Vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Saison farmhouse ale'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Sake'}).forEach( function(x) {x.Kategori = 'Fruktvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Scotch ale'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Sherry'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Sider'}).forEach( function(x) {x.Kategori = 'Fruktvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Spesial'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Sterkvin. annen'}).forEach( function(x) {x.Kategori = 'Sterkvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Surøl'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Vermut'}).forEach( function(x) {x.Kategori = 'Sterkvin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Vodka'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Whisky'}).forEach( function(x) {x.Kategori = 'Brennevin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champage extra brut'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne. annen'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne. brut'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne. rosé'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne. sec'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne. brut'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne. brut'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne extra brut'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Pale ale'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Mørk lager'}).forEach( function(x) {x.Kategori = 'Øl';db.inventory.save(x)});
+db.inventory.find({'Varetype': 'Champagne. rosé'}).forEach( function(x) {x.Kategori = 'Musserende vin';db.inventory.save(x)});
+
+
+
+
+
+
+
+db.inventory.find({'Kategori':{"$exists":false}})
+db.inventory.find({'Kategori':{"$exists":false}}).count();
+db.inventory.find({'Kategori':{"$exists":false}})

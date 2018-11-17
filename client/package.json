@@ -1,0 +1,46 @@
+{
+  "homepage": "http://it2810-46.idi.ntnu.no/prosjekt4/",
+  "name": "it2810-webutvikling-h18-prosjekt-4-gruppe--46",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "cypress": "^3.1.1",
+    "lodash": "latest",
+    "react": "^16.6.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-responsive-modal": "^3.5.1",
+    "react-scripts": "2.0.5",
+    "react-semantic-ui": "^0.2.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.83.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-15": "^1.2.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "redux-devtools": "^3.4.1"
+  }
+}

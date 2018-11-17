@@ -1,0 +1,20 @@
+For å unfucke databasen:
+db.inventory.find()
+.forEach( function (x) {
+   x.Varenummer = parseFloat(x.Varenummer);
+   x.Volum = parseFloat(x.Volum);x.Pris = parseFloat(x.Pris);x.Literpris = parseFloat(x.Literpris);x.Argang = parseFloat(x.Argang);x.Alkohol = parseFloat(x.Alkohol);x.APK = parseFloat(x.APK);db.inventory.save(x); });
+
+For å legge til random likes
+db.inventory.find().forEach( function (x) { x.Misliker = Math.floor(Math.random() * (1001) ); db.inventory.save(x) } )
+
+Finne unike varetyper
+db.inventory.distinct('Varetype')
+
+For å gi en kategori
+db.inventory.find({Varetype: 'India Pale Ale'}).forEach( function (Produkt) {Produkt.Kategori = 'Øl'})
+
+For å endre NaN til 0. 
+db.inventory.find({'Argang': 0/0}).forEach(function(x) {    x.Sukker = 0;db.inventory.save(x); }  );
+
+For å sjekke om noen varer ikke hadde fått kategori
+db.inventory.find({'Argang': 0/0}).forEach(function(x) {    x.Sukker = 0;db.inventory.save(x); }  );

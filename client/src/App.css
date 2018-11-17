@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-logo {
+    padding: 30px;
+    width: 60%;
+    max-width: 450px;
+    max-height: 300px;
+}
