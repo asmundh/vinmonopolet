@@ -1,10 +1,10 @@
 {
-  "homepage": "http://it2810-46.idi.ntnu.no/prosjekt4/",
+  "homepage": "http://asmundhaugse.no",
   "name": "server",
   "version": "1.0.0",
   "description": "Server som kobler til databasen og tar i mot API-kall ved hjelp av Express.",
   "main": "src/index.js",
-  "author": "Åsmund",
+  "author": "asmundh",
   "license": "ISC",
   "scripts": {
     "webserver": "NODE_ENV=mongodb://it2810-46.idi.ntnu.no:27017/prosjekt4 nodemon --exec babel-node src",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.stud.idi.ntnu.no:it2810-h18/prosjekt3/gruppe46.git"
+    "url": "https://github.com/asmundh/vinmonopolet"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
