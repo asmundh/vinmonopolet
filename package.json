@@ -23,6 +23,7 @@
     "nyc": "^13.1.0"
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.1.0"
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "event-stream": "^3.3.4"
   }
 }
