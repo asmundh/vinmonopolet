@@ -20,7 +20,7 @@
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "nodemon": "^1.18.4",
-    "nyc": "^13.1.0"
+    "nyc": "^14.1.1"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
