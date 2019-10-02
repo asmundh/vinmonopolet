@@ -13,6 +13,7 @@ class ProductCtrl {
   Using && between keys allows for specifying several types
    */
   get=(req, res) => {
+    console.log(req);
     ProductModel.find()
     .then(doc => {
       res.json(doc)

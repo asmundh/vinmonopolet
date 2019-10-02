@@ -4,9 +4,11 @@ import path from 'path';
 import productRoute from '../src/routes/product';
 import mongoose from 'mongoose';
 import cors from 'cors';
+import dotenv from 'dotenv';
 
 
 const app = express();
+dotenv.config();
 
 app.use(bodyParser.json());
 app.use(productRoute);
@@ -19,8 +21,8 @@ app.use((req,res,next) => {
 });
 
 //lokalt:
-const server=process.env.NODE_ENV;
-// const server = 'mongodb://it2810-46.idi.ntnu.no:27017/prosjekt4'
+// const server=process.env.NODE_ENV;
+const server = 'mongodb://127.0.0.1:27017/Vinmonopolet'
 
 //Connect to the database(only done once)
 //mongoose.connect(`mongodb://${user}:${password}@${server}/${database}`)

@@ -78,7 +78,6 @@ describe('Products', () => {
       });
     });
 
-
     //PUT new amount of likes for a product
     describe('/PUT product', () => { 
       // Check current likes

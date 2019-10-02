@@ -55,6 +55,7 @@ router.get('/product',(req, res) => {
     limit: lim,
     sort: {[sorting]:[order]}
   }).then(page => {
+    console.log(page);
     res.json(page)
   })
     .catch(err => {
@@ -64,7 +65,6 @@ router.get('/product',(req, res) => {
 
 // UPDATE
 router.put('/product',(req, res) => {
-
   if(req.query.Liker) {
     ProductModel.findOneAndUpdate({
       Varenummer: req.query.Varenummer,
@@ -94,7 +94,6 @@ router.put('/product',(req, res) => {
 router.post('/product', (req,res) => {
   //tell express what to do with the json data
   // req.body
-
   let model = new ProductModel(req.body)
   model.save()
     .then(doc => {
